@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+.cabecera{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+    overflow: hidden;
+    background: url(../img/hero-image.jpg);
+    background-size: cover;
+}
+.cabecera::before{
+    content: "";
+    background: black;
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 95vh;
+    opacity: 0.5;
+}
+.cabecera .desc{
+    position: relative;
+    font-family: Raleway;
+    padding: 0.5em;
+}
+.cabecera p{
+    text-align: center;
+    color: #CBCBCB;
+    font-size: 1.3em;
+    margin-bottom: 0.8em;
+}
+.cabecera h1{
+    width: 100%;
+    color: #fff;
+    font-weight: lighter;
+    font-size: 3em;
+    text-align: center;
+    margin-bottom: 0.8em;
+}
+.cabecera .desc > a{
+    text-decoration: none;
+    color: #fff;
+    width: 180px;
+    text-align: center;
+    padding: 0.7em 1.5em;
+    display: block;
+    border: 1px solid #fff;
+    margin: auto;
+    transition: .5s;
+    margin-bottom: 20px;
+}
+.cabecera .desc > a:hover{
+    background: #18B2D2;
+    border: 1px solid #18B2D2;
+}
+.cabecera .redes{
+    width: 180px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+}
+.cabecera .redes a{
+    text-decoration: none;
+    color: #fff;
+    margin: .4em;
+    font-size: 1.7em;
+    transition: ease-in .3s;
+}
+.cabecera .redes a:hover{
+    color: rgba(255,255,255,.5)
+}
+.cabecera .desc img{
+    height: 50px;
+    margin: auto;
+    display: block;
+    margin-top: 50px;
+}
+
+
+
+
+
+
+
+
