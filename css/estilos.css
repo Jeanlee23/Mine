@@ -8,7 +8,13 @@
     overflow: hidden;
     background: url(../img/hero-image.jpg);
     background-size: cover;
+    /*animation: bg 5s infinite alternate;*/
 }
+/*@keyframes bg{
+    to{
+        background-size: 150vh;
+    }
+}*/
 .cabecera::before{
     content: "";
     background: black;
